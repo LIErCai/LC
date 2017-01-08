@@ -13,6 +13,12 @@
 		8492C60E1E22179900BF41CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8492C60C1E22179900BF41CF /* Main.storyboard */; };
 		8492C6101E22179900BF41CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8492C60F1E22179900BF41CF /* Assets.xcassets */; };
 		8492C6131E22179900BF41CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8492C6111E22179900BF41CF /* LaunchScreen.storyboard */; };
+		84D0C7B71E221CAA00E56217 /* ALBBMediaService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D0C7B11E221CAA00E56217 /* ALBBMediaService.framework */; };
+		84D0C7B81E221CAA00E56217 /* TBAVSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D0C7B21E221CAA00E56217 /* TBAVSDK.framework */; };
+		84D0C7B91E221CAA00E56217 /* VSVideoCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D0C7B31E221CAA00E56217 /* VSVideoCore.framework */; };
+		84D0C7BA1E221CAA00E56217 /* YWExtensionForCustomerServiceFMWK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D0C7B41E221CAA00E56217 /* YWExtensionForCustomerServiceFMWK.framework */; };
+		84D0C7BB1E221CAA00E56217 /* YWExtensionForShortVideoFMWK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D0C7B51E221CAA00E56217 /* YWExtensionForShortVideoFMWK.framework */; };
+		84D0C7BC1E221CAA00E56217 /* YWShortVideo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84D0C7B61E221CAA00E56217 /* YWShortVideo.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		8492C60F1E22179900BF41CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8492C6121E22179900BF41CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8492C6141E22179900BF41CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D0C7B11E221CAA00E56217 /* ALBBMediaService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ALBBMediaService.framework; sourceTree = "<group>"; };
+		84D0C7B21E221CAA00E56217 /* TBAVSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TBAVSDK.framework; sourceTree = "<group>"; };
+		84D0C7B31E221CAA00E56217 /* VSVideoCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VSVideoCore.framework; sourceTree = "<group>"; };
+		84D0C7B41E221CAA00E56217 /* YWExtensionForCustomerServiceFMWK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YWExtensionForCustomerServiceFMWK.framework; sourceTree = "<group>"; };
+		84D0C7B51E221CAA00E56217 /* YWExtensionForShortVideoFMWK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YWExtensionForShortVideoFMWK.framework; sourceTree = "<group>"; };
+		84D0C7B61E221CAA00E56217 /* YWShortVideo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YWShortVideo.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +45,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D0C7B81E221CAA00E56217 /* TBAVSDK.framework in Frameworks */,
+				84D0C7B71E221CAA00E56217 /* ALBBMediaService.framework in Frameworks */,
+				84D0C7B91E221CAA00E56217 /* VSVideoCore.framework in Frameworks */,
+				84D0C7BB1E221CAA00E56217 /* YWExtensionForShortVideoFMWK.framework in Frameworks */,
+				84D0C7BA1E221CAA00E56217 /* YWExtensionForCustomerServiceFMWK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +75,7 @@
 		8492C6021E22179900BF41CF /* git测试 */ = {
 			isa = PBXGroup;
 			children = (
+				84D0C7B01E221CAA00E56217 /* WXExtensions */,
 				8492C6061E22179900BF41CF /* AppDelegate.h */,
 				8492C6071E22179900BF41CF /* AppDelegate.m */,
 				8492C6091E22179900BF41CF /* ViewController.h */,
@@ -77,6 +95,19 @@
 				8492C6041E22179900BF41CF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84D0C7B01E221CAA00E56217 /* WXExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				84D0C7B11E221CAA00E56217 /* ALBBMediaService.framework */,
+				84D0C7B21E221CAA00E56217 /* TBAVSDK.framework */,
+				84D0C7B31E221CAA00E56217 /* VSVideoCore.framework */,
+				84D0C7B41E221CAA00E56217 /* YWExtensionForCustomerServiceFMWK.framework */,
+				84D0C7B51E221CAA00E56217 /* YWExtensionForShortVideoFMWK.framework */,
+				84D0C7B61E221CAA00E56217 /* YWShortVideo.bundle */,
+			);
+			path = WXExtensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +170,7 @@
 			files = (
 				8492C6131E22179900BF41CF /* LaunchScreen.storyboard in Resources */,
 				8492C6101E22179900BF41CF /* Assets.xcassets in Resources */,
+				84D0C7BC1E221CAA00E56217 /* YWShortVideo.bundle in Resources */,
 				8492C60E1E22179900BF41CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +339,7 @@
 				8492C6191E22179900BF41CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
