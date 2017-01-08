@@ -27,7 +27,7 @@ xcuserdata
 *.hmap
 *.ipa
 *.DS_Store
-WXExtensions/*
+*WXExtensions/*
 
 # CocoaPods
 #
