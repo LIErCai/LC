@@ -28,6 +28,7 @@ xcuserdata
 *.ipa
 *.DS_Store
 *WXExtensions/*
+*WXFrameworks/*
 
 # CocoaPods
 #
