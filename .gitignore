@@ -26,6 +26,8 @@ xcuserdata
 ## Obj-C/Swift specific
 *.hmap
 *.ipa
+*.DS_Store
+WXExtensions/*
 
 # CocoaPods
 #
